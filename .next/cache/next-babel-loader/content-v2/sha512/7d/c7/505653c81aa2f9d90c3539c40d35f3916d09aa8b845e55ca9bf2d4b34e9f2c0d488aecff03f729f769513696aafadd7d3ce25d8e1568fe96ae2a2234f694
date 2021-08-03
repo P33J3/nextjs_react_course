@@ -1,0 +1,1 @@
+{"ast":null,"code":"function HomePage() {}","map":{"version":3,"sources":["D:/Coding/Udemy/23 Next-js/nextjs bigger-project/pages/index.js"],"names":["HomePage"],"mappings":"AAGA,SAASA,QAAT,GAAoB,CAEnB","sourcesContent":["\r\n\r\n\r\nfunction HomePage() {\r\n    \r\n}"]},"metadata":{},"sourceType":"script"}
