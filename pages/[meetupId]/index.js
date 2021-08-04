@@ -66,7 +66,8 @@ export async function getStaticPaths() {
   
   return {
     //fallbaack:false implies that all pages are covered below; if user inputs another page they get a 404 error page.
-    fallback: false,
+    // when set to blocking or true, it will tell nextjs not to answer with a 404 page if url cannot be found || necessary for pages created after build time.
+    fallback: 'blocking',
     paths: meetups.map((meetup) => ({
       params: { meetupId: meetup._id.toString() },
     })),
